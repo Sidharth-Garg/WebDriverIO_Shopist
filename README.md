@@ -25,7 +25,7 @@ Make sure to configure your WebDriverIO environment in the `wdio.conf.js` file.
 To run the test suite, execute the following command:
 
 ```bash
-npm test
+npm run wdio 
 ```
 
 ## Test Cases
@@ -54,8 +54,8 @@ This test case edits the user's profile information, saves the changes, and veri
 
 - `Homepage`: Contains methods related to actions on the homepage.
 - `Itempage`: Contains methods related to actions on item pages.
-- `Cart`: Contains methods related to actions on the shopping cart.
-- `Profile`: Contains methods related to actions on the user profile page.
+- `Cartpage`: Contains methods related to actions on the shopping cart.
+- `Profilepage`: Contains methods related to actions on the user profile page.
 
 ## Contributors
 
